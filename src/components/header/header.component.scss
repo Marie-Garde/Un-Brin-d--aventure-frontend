@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Sana Sans Alt Thin Italic';
+  src: url('../../assets/Fonts/Sana\ Sans\ Alt\ W00\ Thin\ Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Sana Sans Alt Regular';
+  src: url('../../assets/Fonts/Sana\ Sans\ Alt\ W00\ Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Sana Sans Alt Bold';
+  src: url('../../assets/Fonts/Sana\ Sans\ Alt\ W00\ Bold.ttf');
+}
+
+.containerLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3vh;
+}
+
+.logo {
+  height: 30vh;
+}
+
+.subTitle {
+  font-family: 'Sana Sans Alt Thin Italic';
+  font-size: 1.3rem;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #053A33;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1vh 2vw;
+  font-family: 'Sana Sans Alt Regular';
+  color: #053A33;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 7vh 5vw 5vh 5vw;
+}
+
+.itemMenu {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.itemMenuTitle {
+  margin: 0 5px 0 0;
+  font-family: 'Sana Sans Alt Bold';
+  cursor: pointer;
+}
+
+.iconMenu {
+  padding-top: 3px;
+}

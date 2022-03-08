@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-front-page',
@@ -8,15 +7,11 @@ import { Router } from '@angular/router';
 })
 export class FrontPageComponent implements OnInit {
 
-  constructor(
-    private router: Router,
-  ) { }
+  constructor( ) { }
 
   ngOnInit(): void {
   }
 
-  public redirectToManageAccount() {
-    this.router.navigate(['/auth']);
-  }
+
 
 }
