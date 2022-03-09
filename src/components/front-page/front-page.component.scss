@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Sana Sans Alt Thin';
+  src: url('../../assets/Fonts/Sana\ Sans\ Alt\ W00\ Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Sana Sans Alt Bold';
+  src: url('../../assets/Fonts/Sana\ Sans\ Alt\ W00\ Bold.ttf');
+}
+
+.explicationText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.text {
+  font-family: 'Sana Sans Alt Thin';
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  line-height: 13px;
+}
+
+.learnMore {
+  display: flex;
+  justify-content: center;
+}
+
+.learnMoreButton {
+  background-color: #053A33;
+  border: 1px solid #053A33;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+
+.buttonContent {
+  display: flex;
+  background-color: transparent;
+  padding: 8px 10px;
+
+  p {
+    background-color: transparent;
+    color: white;
+    font-family: 'Sana Sans Alt Thin';
+    font-size: 1.5rem;
+    margin: 0 5px 0 0;
+  }
+
+  .iconButton {
+    background-color: transparent;
+    fill: white;
+    margin-top: 10px;
+  }
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 20vw 5vh 20vw;
+}
+
+.title {
+  font-family: 'Sana Sans Alt Bold';
+  color: #EEC42B;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px 0 8px;
+  .itemImage {
+    width: 22vh;
+    height: 22vh;
+  }
+  .itemTitle {
+    font-family: 'Sana Sans Alt Bold';
+    text-align: center;
+  }
+}
+
+.instagram {
+  background-color: #F5F2D5;
+  padding-bottom: 5vh;
+}
+
+.instagramTitle {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3vh;
+  p {
+    background-color: transparent;
+    font-family: 'Sana Sans Alt Thin';
+    color: #EEC42B;
+    line-height: 11px;
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+  }
+}
+
+.instagramPost {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+
+  .lineAbove {
+    background-color: transparent;
+    margin-bottom: 2vh;
+    .instagramImg {
+      width: 22vh;
+      height: 22vh;
+      margin: 0 8px 0 8px;
+      cursor: pointer;
+      transition: 0.5s ease-out;
+      transition: 0.5s ease-out;
+      &:hover {
+        height: 25vh;
+        width: 25vh;
+        transition: 0.5s ease-out;
+        transition: 0.5s ease-out;
+      }
+    }
+  }
+
+  .lineBelow {
+    background-color: transparent;
+    .instagramImg {
+      width: 22vh;
+      height: 22vh;
+      margin: 0 8px 0 8px;
+      cursor: pointer;
+      transition: 0.5s ease-out;
+      transition: 0.5s ease-out;
+      &:hover {
+        height: 25vh;
+        width: 25vh;
+        transition: 0.5s ease-out;
+        transition: 0.5s ease-out;
+      }
+    }
+  }
+}
