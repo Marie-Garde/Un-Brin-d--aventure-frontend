@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FrontPageComponent } from '../components/front-page/front-page.component';
+import { EventComponent } from 'src/components/evenementiel/evenementiel.component';
 import { HeaderComponent } from '../components/header/header.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -24,6 +25,7 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { MatMenuModule } from '@angular/material/menu';
     FrontPageComponent,
     HeaderComponent,
     FooterComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
@@ -52,6 +55,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MdbValidationModule,
     BrowserAnimationsModule,
     MatMenuModule,
+    MatCardModule
   ],
   exports: [
     MatMenuModule,
