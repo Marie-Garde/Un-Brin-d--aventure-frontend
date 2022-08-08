@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -3vh;
+  margin-top: 3vh;
 }
 
 .logo {
@@ -60,4 +60,10 @@
 
 .iconMenu {
   padding-top: 3px;
+}
+
+.subMenu {
+  width: 15px;
+  height: 15px;
+  background-color: red;
 }

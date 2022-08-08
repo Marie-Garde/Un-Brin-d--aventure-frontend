@@ -28,6 +28,8 @@
 }
 
 .learnMoreButton {
+  width: 15vw;
+  height: 10vh;
   background-color: #053A33;
   border: 1px solid #053A33;
   border-radius: 10px;
@@ -36,6 +38,7 @@
 
 .buttonContent {
   display: flex;
+  justify-content: center;
   background-color: transparent;
   padding: 8px 10px;
 
@@ -45,12 +48,6 @@
     font-family: 'Sana Sans Alt Thin';
     font-size: 1.5rem;
     margin: 0 5px 0 0;
-  }
-
-  .iconButton {
-    background-color: transparent;
-    fill: white;
-    margin-top: 10px;
   }
 }
 
